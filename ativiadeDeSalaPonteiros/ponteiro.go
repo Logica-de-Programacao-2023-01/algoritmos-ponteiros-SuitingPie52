@@ -4,9 +4,7 @@ import "fmt"
 
 func swap(p1 *int, p2 *int) {
 
-	trocar := *p1
-	*p1 = *p2
-	*p2 = trocar
+	*p1, *p2 = *p2, *p1
 
 }
 
